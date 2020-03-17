@@ -6,11 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".ShowInfo"
     android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="\u003C"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:id="@+id/btn_return" />
+    </LinearLayout>
     <ImageView
         android:id="@+id/show_img"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_margin="20dp"/>
+        android:layout_margin="30dp"
+        android:contentDescription="this is the picture of the student"/>
     <TextView
         android:id="@+id/show_info"
         android:layout_width="match_parent"
